@@ -1,0 +1,68 @@
+{
+  "name": "email automation",
+  "projectId": "2199425b-99d1-4b2f-92f8-efd3ffcd145c",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "[2.14.0-preview]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.33.0-preview]",
+    "UiPath.DocumentUnderstanding.OCR.LocalServer": "[1.5.1]",
+    "UiPath.Excel.Activities": "[2.25.1-preview]",
+    "UiPath.GSuite.Activities": "[3.0.10]",
+    "UiPath.Mail.Activities": "[2.0.11]",
+    "UiPath.Python.Activities": "[1.10.0]",
+    "UiPath.System.Activities": "[25.2.4]",
+    "UiPath.UIAutomation.Activities": "[25.2.1-preview]",
+    "UiPath.UIAutomation.Activities.Design.RecoveryPanel": "[24.12.5-preview]",
+    "UiPath.WebAPI.Activities": "[1.21.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.161.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "a9086d08-328c-48d4-a60a-f50abae7f0c3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
